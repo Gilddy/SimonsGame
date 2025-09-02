@@ -72,25 +72,3 @@ function startOver() {
   gamePattern = [];
   started = false;
 }
-// var soundStore = {
-//   green: 1,
-//   red: 2,
-//   yellow: 3,
-//   blue: 4
-// }
-
-// function nextSound() {
-//   var rand = Math.floor(Math.random() * 3);
-//   var soundPosition = soundStore[rand];
-//   console.log (soundPosition);
-// }
-// nextSound();
-
-// function playSound(name) {
-//   var audio = new Audio("sounds/" + name + ".mp3");
-//   audio.play();
-// }
-// $(".btn").click(function () {
-//   var Sound = this.id;
-//   playSound(Sound);
-// });
